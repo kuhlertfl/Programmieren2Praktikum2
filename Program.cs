@@ -18,7 +18,7 @@ namespace Programmieren2Praktikum2
                 //if input is empty exit program
                 Console.Write("Messung: ");
                 input = Console.ReadLine().Trim();
-                if (input == "")
+                if (string.IsNullOrEmpty(input))
                 {
                     break;
                 }
